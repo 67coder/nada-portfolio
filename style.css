@@ -1,0 +1,374 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Regular.woff2') format('woff2'),
+       url('fonts/Poppins-Regular.woff') format('woff');
+  font-weight: 400;  /* الوزن الطبيعي */
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+ background: linear-gradient(rgba(253,46,146,0.2), rgba(253,46,146,0.2)), #FBF8CC;
+ 
+  overflow-x: hidden;
+
+
+}
+
+
+.name{
+color: #03045E;
+font:  sans-serif;
+font-size: 35px;
+position: absolute;
+left: 70px;
+top: 3px;
+font-weight: bolder;
+}
+.navbar  {
+    position: absolute;
+    top: 33px;
+    left: 550px;
+   display: flex;
+   gap: 30px;
+
+
+}
+.navbar a{
+    color: #03045E;
+font:  sans-serif;
+font-size: 20px;
+text-decoration: none;
+
+}
+.icons{
+   position: absolute;
+    top: 33px;
+    left: 1260px; 
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.three{
+    position: absolute;
+    top: 113px;
+    left: 950px; 
+    width: 330px;
+    height: 511px;
+}
+.one{
+     position: absolute;
+    top: 610px;
+    left: 870px; 
+}
+.two{
+     position: absolute;
+    top: 113px;
+    left: 1270px; 
+}
+.first{
+     position: absolute;
+    top: 193px;
+    left: 140px; 
+    color: #03045E;
+    font-size: 30px;
+   
+}
+.second{
+     position: absolute;
+    top: 173px;
+    left: 140px; 
+    color: #03045E;
+    font-size: 100px;
+    font-family: Poppins;
+    font-weight: bolder;
+    
+}
+.first-text p{
+      position: absolute;
+    top: 463px;
+    left: 140px; 
+    color: #03045E;
+    font-size: 20px;
+    
+}
+.first-text button{
+     position: absolute;
+    top: 543px;
+    left: 140px; 
+    color: white;
+    width: 149px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #FF4D6D;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#about{
+    position: absolute;
+    top: 700px;
+
+
+}
+.text {
+    color:#03045E;
+    font-size: 50px;
+    position: absolute;
+    font-weight: bolder;
+     white-space: nowrap; 
+     left: 20px;
+    
+}
+.text span{
+    color: #FF3366;
+
+    
+}
+
+.first-div{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 20px;
+    top: 160px;
+    
+    width: 550px;
+    height: 150px;
+    justify-content: center;
+    left: 60px;
+    
+}
+.first-div img{
+    width: 64px;
+    height: 64px;
+    border: 1px black solid;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+.inner h1{
+    font-size: 20px;
+    color: #03045E;
+}
+.inner p{
+    font-size: 15px;
+    color: #03045E;
+}
+.second-div{
+     display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 20px;
+    top: 160px;
+    left: 760px;
+     height: 150px;;
+    
+    width: 550px;
+    justify-content: center;
+    
+}
+.second-div img{
+    width: 64px;
+    height: 64px;
+    border: 1px black solid;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+.innerone h1{
+    font-size: 20px;
+    color: #03045E;
+}
+.innerone p{
+    font-size: 15px;
+    color: #03045E;
+}
+.third-div{
+position: absolute;
+top: 340px;
+left: 60px;
+ width: 500px;
+}
+.third-div h1{
+    color: #FF4D6D;
+    font-size: 40px;
+
+}
+.third-div p{
+    color: #03045E;
+    font-size: 20px;
+    width: 900px;
+ 
+}
+
+.fourth-div{
+    position: absolute;
+     left: 760px;
+     top: 340px;
+     
+}
+.fourth-div h1{
+    color: #FF4D6D;
+    font-size: 40px; 
+}
+.fourth-div p{
+    color: #03045E;
+    font-size: 20px;
+    width: 900px;
+}
+#skills{
+    position: absolute;
+    top: 1270px;
+}
+.skill{
+     color:#03045E;
+    font-size: 50px;
+    position: absolute;
+    font-weight: bolder;
+     left: 20px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    position: absolute;
+    top: 180px;
+    left: 380px;
+}
+.first-group{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.second-group{
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    margin-left: 240px;
+}
+.icon img{
+    width: 130px;
+    height:130px ;
+}
+.icon h1{
+color:#03045E;
+ font-size: 25px;
+ position: absolute;
+ margin-left: 20px;
+}
+#projects{
+    position: absolute;
+    top: 1960px;
+}
+.pro{
+     color:#03045E;
+    font-size: 50px;
+    position: absolute;
+    font-weight: bolder; 
+     left: 20px;
+     
+    
+}
+.pi img{
+    width: 350px;
+    height: 250px;
+    border: solid 3px #03045E;
+    
+    
+}
+.all2{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    position: absolute;
+    top: 200px;
+    left: 140px;
+}
+
+
+.pi h1{
+    font-size: 20px;
+    color:#03045E;
+    margin-left: 14px;
+}
+#contact {
+    position: absolute;
+    top: 2650px;
+    
+}
+.contacts{
+ color:#03045E;
+    font-size: 50px;
+    position: absolute;
+    font-weight: bolder; 
+     left: 20px;
+}
+.contact{
+ 
+display: flex;
+flex-direction: column;
+
+width: 848px;
+height: 260px;
+border-radius: 24px;
+position: absolute;
+top: 230px;
+left: 330px;
+align-items: center;
+border: solid #03045E 3px;
+
+}
+.contact h1{
+    color: #03045E;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.contact p{
+    color: #03045E;
+    font-size: 20px;
+    text-align: center;
+}
+.contact button{
+width: 198.52px;
+height: 58px;
+background-color: #FF3366;
+color:#03045E;
+font-size: 30px;
+border-radius: 20px;
+font-weight: bolder;
+}
+.footer{
+    position: absolute;
+    top: 3250px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 330px;
+    width: 100%;
+    background-color: #03045E;
+    align-items: center;
+
+}
+
+.footer-left span{
+    color: white;
+    font-size: 35px;
+     white-space: nowrap;
+     margin-left: 20px; 
+}
+
+.footer-center{
+    white-space: nowrap; 
+     color:white;
+     font-size: 20px;
+}
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+} 
+.footer-right a{
+    color: white;
+    text-decoration: none;
+
+}
